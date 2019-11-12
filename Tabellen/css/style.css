@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  font-size: 62.5%;
+  font-family: "Mansalva", cursive;
+}
+
+table td {
+  padding: 1rem;
+  text-align: center;
+  border: 0.2rem solid #ccc;
+  font-size: 1.2rem;
+  text-shadow: 0.3rem 0.3rem 0.3rem #3f3939;
+}
+
+table {
+  border-collapse: collapse;
+  height: 30rem;
+  width: 40rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  /*
+  tr:nth-child(odd){
+        td:nth-child(1){ background: gray; }
+        td:nth-child(2){ background: gray; }
+        td:nth-child(3){ background: gray; }
+        td:nth-child(4){ background: gray; }
+  }*/
+}
+table th {
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+  border: 0.2rem solid #ccc;
+  background: #cc2525;
+  height: 5rem;
+  width: 5rem;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0.4rem 0.4rem 0.4rem gray;
+}
+table th:hover {
+  color: black;
+}
+table tr:nth-of-type(odd) {
+  background: gray;
+}
+table tr:nth-of-type(odd):hover {
+  color: white;
+}
+table tr:nth-of-type(even):hover {
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
